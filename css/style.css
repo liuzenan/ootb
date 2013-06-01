@@ -1,5 +1,7 @@
 .header{
 	padding-top: 20px;
+	background-color: #333;
+	border-bottom: 5px solid #ddd0c0;
 }
 
 ul.nav > .nav-item {
@@ -11,12 +13,28 @@ ul.nav > .nav-item {
 	padding: 5px 10px;
 	border-radius: 5px;
 	text-transform: uppercase;
+	color: white;
+}
+
+.nav-item a:hover{
+	background-color: #1abc9c !important;
+}
+
+.nav-item .divider{
+	color: white;
+	display: block;
+	padding: 5px 10px;
+}
+
+.nav-item .icon{
+	margin-top: -5px;
 }
 
 .splash{
 	width: 100%;
-	height: 400px;
-	background-color: lightgray;
+	height: 425px;
+	background: url(../img/splash2.png) no-repeat center center;
+	background-size: cover;
 }
 
 .splash .tagline{
@@ -24,28 +42,67 @@ ul.nav > .nav-item {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
+	color: white;
+	text-shadow: 0 0.3em #847056;
+	text-transform: uppercase;
 }
 
-.splash .tagline h1, .splash .tagline a{
-	text-transform: uppercase;
+.splash .tagline h1{
+	line-height: 1.2em;
 }
 
 .splash .tagline h2{
 	font-size: 1.2em;
 }
 
+.splash .tagline .down-arrow{
+	margin-top: 10px;
+}
+
+.explain {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.explain .explain-wrapper{
+	position: relative;
+}
+
+.explain .number{
+	position: absolute;
+	top: 20px;
+	background: lightgray;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.explain-unit h3{
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.explain-unit{
+	margin-left: 40px;
+}
+
 .featured .idea-card{
 	margin-top: 20px;
 	float: left;
-	width: 30%;
-	margin-right: 3.333%;
+	width: 32%;
+	margin-right: 2%;
+}
+
+.featured .idea-card:nth-child(3n+3){
+	margin-right: 0;
 }
 
 .idea-card{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 320px;
+	height: 240px;
 	position: relative;
 	color: white;
 }
@@ -102,7 +159,7 @@ hr {
 
 .discover-section{
 	text-align: center;
-	margin-bottom: 50px;
+	margin: 50px 0;
 }
 
 .discover-section p{
@@ -126,14 +183,8 @@ hr {
 }
 
 .idea-card .view-idea{
-	padding: 10px;
+	margin-top: 20px;
 	text-transform: uppercase;
-	background: rgba(255,255,255,0.3);
-	top: -22px;
-	display: block;
-	width: 100px;
-	margin: 0 auto;
-	margin-top: 10px;
 }
 
 .footer{
@@ -141,3 +192,22 @@ hr {
 	background: #333;
 }
 
+/*   idea page   */
+
+.idea-container .cover-image{
+	height: 250px;
+	background: lightgray;
+}
+
+.idea-main{
+	margin: 20px 0;
+}
+
+.idea-header .idea-title{
+	float: left;
+	margin: 0;
+}
+
+.idea-header a{
+	float:right;
+}
