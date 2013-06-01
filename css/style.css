@@ -1,0 +1,143 @@
+.header{
+	padding-top: 20px;
+}
+
+ul.nav > .nav-item {
+	float: left;
+	margin: 0 5px;
+}
+
+.nav-item a{
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+.splash{
+	width: 100%;
+	height: 400px;
+	background-color: lightgray;
+}
+
+.splash .tagline{
+	padding-top: 100px;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.splash .tagline h1, .splash .tagline a{
+	text-transform: uppercase;
+}
+
+.splash .tagline h2{
+	font-size: 1.2em;
+}
+
+.featured .idea-card{
+	margin-top: 20px;
+	float: left;
+	width: 30%;
+	margin-right: 3.333%;
+}
+
+.idea-card{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 320px;
+	position: relative;
+	color: white;
+}
+
+.idea-card a{
+	color: white;
+}
+
+.idea-card a:hover{
+	text-decoration: none;
+}
+
+.register.container{
+	min-height: 500px;
+}
+.opacity{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+.idea-card h4{
+	margin: 0 auto;
+	text-align: center;
+	padding: 40px 0 20px 0;
+}
+
+hr {
+	position: relative;
+	margin: auto;
+	border: none;
+	border-bottom: 1px solid;
+	margin-bottom: 10px;
+}
+
+.idea-card hr{
+	color: rgba(255,255,255,0.4);
+	width: 100px;
+}
+
+.short-divider{
+	color: lightgray;
+	width:100px;
+	margin: 20px auto;
+}
+
+.page-divider{
+	color: lightgray;
+	border-bottom: 1px dotted;
+	width:100%;
+	margin: 50px 0;
+}
+
+.discover-section{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.discover-section p{
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+
+.idea-card p{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.idea-card .chart{
+	width: 100%;
+	text-align: center;
+}
+
+.idea-card canvas{
+	display: block;
+	margin: 0 auto;
+}
+
+.idea-card .view-idea{
+	padding: 10px;
+	text-transform: uppercase;
+	background: rgba(255,255,255,0.3);
+	top: -22px;
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.footer{
+	height: 200px;
+	background: #333;
+}
+
